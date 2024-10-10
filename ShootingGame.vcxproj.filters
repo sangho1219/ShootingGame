@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\enemy">
+      <UniqueIdentifier>{e38966bf-a4f8-493e-a125-b781a0a86704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Title">
+      <UniqueIdentifier>{16113278-30f0-4ac7-bb90-c06cda3c8bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\pattern">
+      <UniqueIdentifier>{7406a0ba-c1c0-460d-a792-5b9630d25f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\GameOver">
+      <UniqueIdentifier>{70bdde18-8029-4cba-b633-a296955bf6b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Clear">
+      <UniqueIdentifier>{19046ea9-a5bb-4616-bd79-4b9f89058790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Stage">
+      <UniqueIdentifier>{a5aa1371-9cd9-4643-8537-22e90a63eea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Bullet">
+      <UniqueIdentifier>{134c8986-9aff-4801-b463-59ac78d3fc38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.h">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InputKey.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Console.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InputKey.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="stage3.txt">
+      <Filter>리소스 파일\Stage</Filter>
+    </Text>
+    <Text Include="stage1.txt">
+      <Filter>리소스 파일\Stage</Filter>
+    </Text>
+    <Text Include="stage2.txt">
+      <Filter>리소스 파일\Stage</Filter>
+    </Text>
+    <Text Include="StageInfo.txt">
+      <Filter>리소스 파일\Stage</Filter>
+    </Text>
+    <Text Include="EnemyInfo.txt">
+      <Filter>리소스 파일\enemy</Filter>
+    </Text>
+    <Text Include="title.txt">
+      <Filter>리소스 파일\Title</Filter>
+    </Text>
+    <Text Include="PatternInfo.txt">
+      <Filter>리소스 파일\pattern</Filter>
+    </Text>
+    <Text Include="p1.txt">
+      <Filter>리소스 파일\pattern</Filter>
+    </Text>
+    <Text Include="p2.txt">
+      <Filter>리소스 파일\pattern</Filter>
+    </Text>
+    <Text Include="p3.txt">
+      <Filter>리소스 파일\pattern</Filter>
+    </Text>
+    <Text Include="over.txt">
+      <Filter>리소스 파일\GameOver</Filter>
+    </Text>
+    <Text Include="clear1.txt">
+      <Filter>리소스 파일\Clear</Filter>
+    </Text>
+    <Text Include="clear2.txt">
+      <Filter>리소스 파일\Clear</Filter>
+    </Text>
+    <Text Include="bullet.txt">
+      <Filter>리소스 파일\Bullet</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
